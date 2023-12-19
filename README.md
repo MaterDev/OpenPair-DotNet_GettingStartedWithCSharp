@@ -21,12 +21,25 @@ Before you begin, ensure you have the following installed on your macOS:
    git clone git@github.com:MaterDev/OpenPair-DotNet_GettingStartedWithCSharp.git
    cd OpenPair-DotNet_GettingStartedWithCSharp
    ```
+
 2. **Restore Dependencies**:
    Run `dotnet restore` to install necessary packages.
 
 ## Project Structure
 
 - `Program.cs`: Contains the main program and demonstrates basic C# features like data types, control structures, methods, classes, LINQ, and lambda expressions.
+- `Mouse.cs`: Contains the class definition for Mouse, including examples of `static`, `public/private` methods, etc.
+
+## Build-release
+
+
+
+```bash
+# Basic build-release script
+
+dotnet publish -c Release -o ./output --self-contained -r osx-x64
+```
+
 - `output/`: Contains the built executable for macOS.
 - `.vscode/tasks.json`: Defines a build task for creating a macOS executable.
 
