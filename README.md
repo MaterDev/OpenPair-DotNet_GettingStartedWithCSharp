@@ -30,6 +30,14 @@ Before you begin, ensure you have the following installed on your macOS:
 - `Program.cs`: Contains the main program and demonstrates basic C# features like data types, control structures, methods, classes, LINQ, and lambda expressions.
 - `Mouse.cs`: Contains the class definition for Mouse, including examples of `static`, `public/private` methods, etc.
 
+## Run Project
+
+Run the main application using the following script:
+
+```bash
+dotnet run --project gettingStarted
+```
+
 ## Build-release
 
 
